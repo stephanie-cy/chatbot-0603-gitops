@@ -25,7 +25,7 @@ spec:
       containers:
       - env:
         - name: MODEL_ENDPOINT
-          value: http://0.0.0.0:8001
+          value: "http://0.0.0.0:8001"
         - name: MODEL_NAME
           value: "instructlab/granite-7b-lab"
         image:  quay.io/yangcao/chatbot:latest
